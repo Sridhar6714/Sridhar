@@ -1,0 +1,28 @@
+						Creating SQL Database
+
+
+* First, we create our table DataFlair_Employee using the create query.
+
+	Syntax: 
+
+CREATE TABLE tableName(columnName1 datatype,
+columnName2 datatype ,
+columnName3 datatype,
+…….) ;
+
+	Query :
+
+CREATE TABLE DataFlair_Employee (
+name_emp  varchar(50),
+post_emp varchar(50),
+email varchar(50),
+age int,
+salary int
+);
+
+* INSERT  INTO DataFlair_Employee (name_emp , post_emp , email , age , salary)
+* Values ('Ram' ,  "Intern", 'ram@dataflair.com', 21 , 5000 ),
+  ('Shyam', "Manager", 'shyam@dataflair.com' , 25 , 25000),
+  ('Ria', "Analyst" , 'ram@dataflair.com', 23 , 21000),
+  ('Kavya', "Senior Analyst" , 'kavya@dataflair.com', 31 , 27500),
+('Aman', "Database Operator",' rish@dataflair.com' , 26 , 30000) ;
